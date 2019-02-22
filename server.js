@@ -1,6 +1,8 @@
 const express = require('express');
 const pug = require('pug');
 const app = express()
+var PubNub = require('pubnub')
+
 
 app.set('view engine', 'pug')
 //app.use(express.static(path.join(__dirname, '/public')));
