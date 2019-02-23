@@ -12,7 +12,7 @@ app.get('/',(req,res) =>{
   {
     lat: 37.33182,
     lon: -122.03118,
-    uuid: "uuid"
+    uuid: "DF4A5993-D085-4994-847C-AF5A7393862E"
    })
 })
 

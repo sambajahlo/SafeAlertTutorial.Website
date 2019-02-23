@@ -18,7 +18,7 @@ html
       })
       //subscribes to the uuid that is passed in through the url
       pubnub.subscribe({
-          channels: ["DF4A5993-D085-4994-847C-AF5A7393862E"] 
+          channels: ["#{uuid}"] 
       });
     
       //sets the view to the inital area
@@ -56,7 +56,7 @@ html
         presence: function(presenceEvent) {
             // handle presence
         }
-      })     
+      })
       
     a(href="https://github.com/SambaDialloB/SafeAlertSite") Check out this github to learn how to build this site! 
       
